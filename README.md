@@ -1,0 +1,2 @@
+# LawnmowerSalesman
+Simple Discord bot
