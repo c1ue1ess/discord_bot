@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 
-KURT = 'jazzy51' #KURT is the username the bot scans for
+KURT = 'georgiboi' #KURT is the username the bot scans for
 answered = False # switch for asking KURT only once
 closed = False # swtich to stop most commands being made
 yes = ("yes", "Yes", "yes.", "Yes.", "yea", "yea.", "Yea", "Yea.", "yep", "yep.", "Yep", "Yep.")
@@ -120,7 +120,7 @@ async def logoff(ctx): # ?logoff - closes the bot
     """closes the bot
     """
     await ctx.channel.send("bye bye :wave:")
-    await ctx.bot.logout()
+    await ctx.bot.close()
 
 
 # beefing up the security with a token read from a file
